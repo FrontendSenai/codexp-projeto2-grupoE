@@ -1,0 +1,43 @@
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+
+background-color: #fb325c;
+}
+
+.divisao__input {
+width: 100%;
+color: white;
+
+}
+
+.divisao__input label {
+display: inline-block;
+width: 5%;
+float: left;
+padding-top: 8px;
+}
+
+.divisao__input input {
+width: 95%;
+border: none;
+border-bottom: 1px solid white;
+background-color: #fb325c;
+padding-bottom: 5px;
+
+}
+
+input::-webkit-input-placeholder { / Chrome/Opera/Safari /
+color: white;
+font-family: 'Ubuntu', sans-serif;
+font-size: 12px;
+font-weight: 200;
+
+}
+
+.formulario__form input {
+padding-top: 2%;
+}
