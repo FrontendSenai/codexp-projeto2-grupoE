@@ -47,19 +47,21 @@
     box-shadow: 1px 2px 2px 1px black;
 }
 
-
-/*footer*/
-
-.footer {
+.footer-position {
+    /*width: 100%;
+    background: #01252c;
+    display: inline-block;*/
     width: 100%;
     background: #01252c;
-    display: inline-block;
+    padding-top: 4em;
 }
 
 .nav_footer {
-    width: 60%;
+    /*width: 60%;
     height: 100%;
     padding-left: 10%;
+    float: left;*/
+    height: 100%;
     float: left;
 }
 
@@ -75,11 +77,13 @@
     color: #07b6bf;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-right: 20px;
+    text-decoration: none;
 }
 
 .texto {
-    padding-top: 2.5%;
     color: #07b6bf;
+    float: right;
     font-family: "helvetica", Sans-Serif;
     font-size: 13px;
 }
