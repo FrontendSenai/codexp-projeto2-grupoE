@@ -8,6 +8,14 @@
     height: 100%;
 }
 
+.primeira_div h1 {
+    font-size: 4em;
+}
+
+.primeira_div h2 {
+    font-size: 2em;
+}
+
 .text_direita {
     height: 100%;
     width: 30%;
