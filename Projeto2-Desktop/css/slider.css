@@ -1,0 +1,142 @@
+.primeira_div {
+    height: 100%;
+    color: #FFFFFF;
+}
+
+.div_fundo {
+    padding: 1% 0 1% 0;
+    height: 100%;
+}
+
+.text_direita {
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+
+.section__slider {
+    width: 100%;
+    height: 100%;
+}
+
+.text_azul_diferente {
+    color: rgb(50, 162, 162);
+}
+
+.slider_direita {
+    float: right;
+    width: 69%;
+    height: 100%;
+    min-height: 300px;
+    border: 1px solid;
+    position: relative;
+}
+
+.slides * {
+    user-select: none;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide-container {
+    clear: left;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.slide {
+    top: 0;
+    opacity: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform: scale(0);
+    transition: all .7s ease-in-out;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav_slide label {
+    width: 70px;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    display: none;
+    z-index: 9;
+    cursor: pointer;
+    transition: opacity .2s;
+    color: #FFF;
+    font-size: 170pt;
+    text-align: center;
+    font-family: "Varela Round", sans-serif;
+    background-color: rgba(255, 255, 255, .0);
+    text-shadow: 0px 0px 15px rgb(119, 119, 119);
+}
+
+.slide:hover+.nav_slide label {
+    opacity: 0.5;
+}
+
+.nav_slide label:hover {
+    opacity: 1;
+}
+
+.nav_slide .next {
+    right: 0px;
+}
+
+input:checked+.slide-container .slide {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 1s ease-in-out;
+}
+
+input:checked+.slide-container .nav_slide label {
+    display: block;
+}
+
+.nav-dots {
+    bottom: 9px;
+    height: 11px;
+    display: block;
+    position: absolute;
+    text-align: center;
+}
+
+.nav-dots .nav-dot {
+    top: -5px;
+    width: 15px;
+    height: 15px;
+    margin: 0 4px;
+    position: relative;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-dots .nav-dot:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.nav-dots {
+    position: absolute;
+    bottom: -12%;
+    right: 40%;
+}
+
+input#img-1:checked~.nav-dots label#img-dot-1,
+input#img-2:checked~.nav-dots label#img-dot-2,
+input#img-3:checked~.nav-dots label#img-dot-3,
+input#img-4:checked~.nav-dots label#img-dot-4,
+input#img-5:checked~.nav-dots label#img-dot-5,
+input#img-6:checked~.nav-dots label#img-dot-6 {
+    background: rgba(182, 33, 33, 0.8);
+}

@@ -92,3 +92,25 @@ display: inline;
 margin: 20px;
 
 } */
+    
+    .twitter-position__icon {
+        max-width: 100%;
+        height: 50px;
+        display: inline-block;
+    }
+    
+    .tweets-position p {
+        display: inline-block;
+        font-size: 20px;
+    }
+    
+    .tweets-position a {
+        display: inline-block;
+        font-size: 20px;
+    }
+    
+    .tweets-position button {
+        margin-top: 1em;
+        float: right;
+        padding: 1em;
+    }

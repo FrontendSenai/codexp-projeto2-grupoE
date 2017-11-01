@@ -8,12 +8,13 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/menu.css" rel="stylesheet">
+    <link href="css/slider.css" rel="stylesheet">
 </head>
 
 <body>
     <header class="header-position">
         <figure class="logo">
-            <img src="/banana-151553_960_720.png" alt="carregando">
+            <img src="img/logo.png" alt="carregando">
         </figure>
 
         <nav class="nav">
@@ -40,7 +41,92 @@
         </nav>
     </header>
     <main class="main-position">
-        <section class="slider-position"></section>
+        <section class="slider-position">
+            <div class="primeira_div">
+                <section class="section__slider">
+                    <div class="div_fundo">
+                        <div class="text_direita">
+                            <h1>
+                                HELLO!
+                            </h1>
+                            <h2>
+                                YOU ARE HERE
+                            </h2>
+                            <p class="text_azul_diferente">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus orci egestas congue blandit. Vivamus iaculis, nunc sit amet consequat scelerisque, nunc ligula vehicula tortor, a pretium lacus elit sit amet sem. Vestibulum ante ipsum primis in faucibus
+                                orci luctus et ultrices posuere cubilia Curae;
+                            </p>
+                        </div>
+                        <div class="slider_direita">
+                            <ul class="slides">
+                                <input type="radio" name="radio-btn" id="img-1" checked />
+                                <li class="slide-container">
+                                    <div class="slide">
+                                        <img src="img/slider/img1.jpg" />
+                                    </div>
+                                    <div class="nav_slide">
+                                        <label for="img-5" class="prev">&#x2039;</label>
+                                        <label for="img-2" class="next">&#x203a;</label>
+                                    </div>
+                                </li>
+
+                                <input type="radio" name="radio-btn" id="img-2" />
+                                <li class="slide-container">
+                                    <div class="slide">
+                                        <img src="img/slider/img2.jpg" />
+                                    </div>
+                                    <div class="nav_slide">
+                                        <label for="img-1" class="prev">&#x2039;</label>
+                                        <label for="img-3" class="next">&#x203a;</label>
+                                    </div>
+                                </li>
+
+                                <input type="radio" name="radio-btn" id="img-3" />
+                                <li class="slide-container">
+                                    <div class="slide">
+                                        <img src="img/slider/img3.jpg" />
+                                    </div>
+                                    <div class="nav_slide">
+                                        <label for="img-2" class="prev">&#x2039;</label>
+                                        <label for="img-4" class="next">&#x203a;</label>
+                                    </div>
+                                </li>
+
+                                <input type="radio" name="radio-btn" id="img-4" />
+                                <li class="slide-container">
+                                    <div class="slide">
+                                        <img src="img/slider/img4.jpg" />
+                                    </div>
+                                    <div class="nav_slide">
+                                        <label for="img-3" class="prev">&#x2039;</label>
+                                        <label for="img-5" class="next">&#x203a;</label>
+                                    </div>
+                                </li>
+
+                                <input type="radio" name="radio-btn" id="img-5" />
+                                <li class="slide-container">
+                                    <div class="slide">
+                                        <img src="img/slider/img5.jpg" />
+                                    </div>
+                                    <div class="nav_slide">
+                                        <label for="img-4" class="prev">&#x2039;</label>
+                                        <label for="img-1" class="next">&#x203a;</label>
+                                    </div>
+                                </li>
+
+                                <li class="nav-dots">
+                                    <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+                                    <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+                                    <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+                                    <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+                                    <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
         <section class="bolinhas-position"></section>
         <section class="jobs-position">
             <div class="card">
@@ -185,7 +271,13 @@
                 </div>
 
         </section>
-        <section class="tweets-position"></section>
+        <section class="tweets-position">
+            <img src="./img/twitter.png" class="twitter-position__icon"></img>
+            <p>Photoshop tutorials: Enter to Win a Photoshop Action Pack Worth $89.95
+            </p>
+            <a href="http://enviarparapagina.com.br">http://enviarparapagina.com.br</a>
+            <button type="#">More Tweets</button>
+        </section>
     </main>
     <footer class="footer-position footer">
 
