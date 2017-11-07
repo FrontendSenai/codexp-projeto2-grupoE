@@ -5,7 +5,8 @@
 }
 
 .content_numbers,
-.content__videos {
+.content__videos,
+.content__world {
     height: 30%;
     width: 100%;
 }
