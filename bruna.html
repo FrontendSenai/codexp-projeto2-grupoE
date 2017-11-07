@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=width-device, initial-scale=1">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .style {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .img-globo {
+            width: 200px;
+            height: 200px;
+        }
+        
+        @media screen and (min-width: 0px) {
+            figure {
+                margin: 10px 30% 15px 30%;
+                /* text-align: center; */
+                /*  width: 300px;
+   display: block;
+   float: left; */
+            }
+            .hr__title {
+                width: 70%;
+                height: 8px;
+                background-color: #828282;
+                margin: 10px 30% 15px 60%;
+            }
+            .linhas {
+                width: 70%;
+                margin: 0 auto;
+            }
+            .hr__corpo {
+                width: 90%;
+                height: 8px;
+                margin: 20px 5% 0 5%;
+                border: none;
+                background-color: #CFCFCF;
+            }
+            div {
+                margin-bottom: 35px;
+                /*  text-align: center; */
+                width: 50%;
+            }
+            button {
+                background-color: #9EB446;
+                width: 100px;
+                height: 40px;
+                border-radius: 5px;
+                border: none;
+                margin: 20px 50% 15px 30%;
+            }
+        }
+        /*Tablets*/
+        
+        @media screen and (min-width: 768px) {
+            .linhas {
+                width: 40%;
+                display: block;
+                float: left;
+                margin-top: 30px;
+                margin-left: 100px;
+                text-align: left;
+            }
+            figure {
+                margin: 0 100px 0 150px;
+                width: 30%;
+                display: block;
+                float: left;
+            }
+            .hr__title {
+                margin: 0;
+            }
+            .hr__corpo {
+                margin-left: 0;
+            }
+            button {
+                margin: 30px 0 0 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="style">
+        <div>
+            <figure><img class="img-globo" src="img/globo.png" alt="globo terrestre"></figure>
+        </div>
+        <div class="linhas">
+            <div>
+                <hr class="hr__title">
+            </div>
+
+            <hr class="hr__corpo">
+            <hr class="hr__corpo">
+            <hr class="hr__corpo">
+            <button type="submit"></button>
+        </div>
+
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+.escrita {
+    text-align: center;
+    height: 37%;
+    margin: 5% 0 5% 0;
+    margin-bottom: 6%;
+}
+
+.escrita__titulo {
+    padding-top: 1%;
+    font: normal 300 2em verdana, sans-serif;
+}
+
+.escrita__subtitulo {
+    font: normal 200 1em verdana, sans-serif;
+}
+
+.videos {
+    width: 100%;
+    height: 57%;
+}
+
+.videos iframe {
+    box-shadow: 0px -1px 5px 0px #888888;
+    margin: 5% 0 5% 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+/*Mobile*/
+
+@media screen and (min-width: 0px) {}
+
+
+/*Tablets*/
+
+@media screen and (min-width: 768px) {
+    .videos iframe {
+        display: inline-block;
+        width: 30%;
+        margin-top: 0%;
+        margin-left: 2%;
+        box-sizing: border-box;
+    }
+}
+
+
+/*Desktops*/
+
+@media screen and (min-width: 992px) {
+    .videos {
+        /*padding: 0 10% 0 10%;*/
+    }
+}
+
+
+/*Notebooks*/
+
+@media screen and (min-width: 1200px) {
+    .videos {
+        /*padding: 0 5% 0 5%;*/
+    }
+}
