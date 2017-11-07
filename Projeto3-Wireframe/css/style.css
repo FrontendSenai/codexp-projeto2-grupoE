@@ -6,7 +6,8 @@
 
 .content_numbers,
 .content__videos,
-.content__world {
+.content__world,
+.footer {
     height: 30%;
     width: 100%;
 }
