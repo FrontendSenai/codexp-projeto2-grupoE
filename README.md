@@ -4,7 +4,7 @@
 
 [Home page](https://frontendsenai.github.io/codexp-projeto2-grupoE/)
 
-[Projeto 2](https://frontendsenai.github.io/codexp-projeto2-grupoE/Projeto1-Mobile)
+[Projeto 1](https://frontendsenai.github.io/codexp-projeto2-grupoE/Projeto1-Mobile)
 
 [Projeto 2](https://frontendsenai.github.io/codexp-projeto2-grupoE/Projeto2-Desktop)
 
