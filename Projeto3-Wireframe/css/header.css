@@ -23,11 +23,8 @@ body {
     width: 100%;
     height: 100%;
     font-weight: bolder;
-<<<<<<< HEAD
-    color: #c1c1c1;
-=======
-    background-color: rgba(255, 255, 255, 0.3);
->>>>>>> 24eb95001c95b5782beaa810416e23a6143baeab
+    color: #f7f1f1;
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 .nav {
@@ -99,7 +96,7 @@ body {
 }
 
 .header_center {
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .sidebar {
@@ -124,7 +121,7 @@ body {
     font-size: 13px;
     display: inline-block;
     padding: 10px;
-    color: #c1c1c1;
+    color: #f7f1f1;
 }
 
 .sidebar a {
