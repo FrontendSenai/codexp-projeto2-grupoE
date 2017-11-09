@@ -1,0 +1,90 @@
+.linha {
+    width: 100%;
+    border: none !important;
+    height: 14px;
+    background: url(http://weaveweb.com.au/sites/all/themes/weavepublic/images/sprite.gif) no-repeat scroll 50% 0;
+}
+
+.titulo {
+    font-size: 2em;
+    line-height: 40px;
+    font-family: "Lilita One", Arial, san-serif;
+    color: #e31936;
+    font-weight: normal;
+}
+
+.conteudo div {
+    display: inline;
+    float: left;
+    margin-left: 2.08%;
+    width: 31.24%;
+}
+
+.conteudo h2 {
+    font-size: 1.5em;
+    font-family: "Ruluko", Arial, san-serif;
+    font-weight: normal;
+}
+
+.conteudo p {
+    font-size: 1em;
+    line-height: 23px;
+    margin-bottom: 18px;
+}
+
+.rodape figure {
+    z-index: 100;
+    top: 0;
+    left: 2.08%;
+}
+
+.divisao {
+    z-index: 1;
+    display: inline;
+    float: right;
+    width: 62.48%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: #e31936;
+    color: #ffffff;
+    padding: 12px 0 12px 2.08%;
+    margin-top: 13px;
+}
+
+.divisao div {
+    width: 50%;
+    display: inline;
+}
+
+.divisao p {
+    font-family: "Ruluko", Arial, san-serif;
+    font-weight: normal;
+}
+
+.rodape div label {
+    font-family: "Ruluko", Arial, san-serif;
+    font-size: 0.98em;
+    padding: 2px 0 5px;
+}
+
+.escrito {
+    display: inline;
+    float: right;
+    width: 49%;
+    padding-right: 2.08%;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.escrito input {
+    border: none;
+    padding: 8px 10px;
+    color: #333333;
+    font-size: 16px;
+    position: relative;
+    width: 69%;
+    z-index: 5;
+    box-shadow: none;
+    border-radius: 16px;
+}
