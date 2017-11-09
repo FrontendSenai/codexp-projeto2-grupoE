@@ -1,5 +1,6 @@
 .linha {
-    width: 100%;
+    border: 1px solid;
+    width: 100%;    
     border: none !important;
     height: 14px;
     background: url(http://weaveweb.com.au/sites/all/themes/weavepublic/images/sprite.gif) no-repeat scroll 50% 0;
@@ -12,10 +13,15 @@
     color: #e31936;
     font-weight: normal;
 }
+.conteudo{
+    border: 1px solid;
+    display: block;      
+    width:100% ;
+}
 
 .conteudo div {
-    display: inline;
-    float: left;
+    display: inline-block;  
+    float: left;  
     margin-left: 2.08%;
     width: 31.24%;
 }
@@ -35,9 +41,10 @@
 .rodape{
     clear: both;    
     height: 15%;
-    position: relative;
+    position: relative;    
 }
 .rodape figure {
+    display: none;
     position: absolute;
     margin-right: -20px; 
     z-index: 100;
@@ -97,3 +104,36 @@
     box-shadow: none;
     border-radius: 16px;
 }
+
+@media screen and (max-width: 768px) {
+    .divisao{
+        width: 100%;
+    }
+    .conteudo div {  
+        display: inline-block;            
+        float: none; 
+        width: 45%;        
+    } 
+}
+
+@media screen and (min-width: 768px) {
+    .rodape figure {
+        display: inherit;
+    }   
+}
+
+@media screen and (max-width: 600px) {
+    .divisao{
+        width: 100%;
+    }
+    .conteudo div {  
+        display: block;           
+        float: none;         
+        width: 100%;
+    } 
+}
+
+@media screen and (min-width: 1030px) {
+    
+}
+
