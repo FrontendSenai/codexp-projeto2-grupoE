@@ -1,5 +1,4 @@
-.linha {
-    border: 1px solid;
+.linha {    
     width: 100%;    
     border: none !important;
     height: 14px;
@@ -13,8 +12,7 @@
     color: #e31936;
     font-weight: normal;
 }
-.conteudo{
-    border: 1px solid;
+.conteudo{    
     display: block;      
     width:100% ;
 }
@@ -131,9 +129,32 @@
         float: none;         
         width: 100%;
     } 
+    .divisao div {
+        width: 100%;
+        display: inline;
+    }
 }
 
-@media screen and (min-width: 1030px) {
-    
+@media screen and (min-width: 1000px) {
+    .conteudo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1030px;
+    }
+
+    .div_titulo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1020px;
+    }
+
+    .rodape{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1020px;  
+    }
 }
 
