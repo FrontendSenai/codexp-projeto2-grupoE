@@ -32,17 +32,27 @@
     margin-bottom: 18px;
 }
 
+.rodape{
+    clear: both;    
+    height: 15%;
+    position: relative;
+}
 .rodape figure {
+    position: absolute;
+    margin-right: -20px; 
     z-index: 100;
-    top: 0;
-    left: 2.08%;
+    bottom: 0;
+    right: 62.48%;
 }
 
 .divisao {
+    position: absolute;
+    right: 0;
+    bottom: 0;
     z-index: 1;
-    display: inline;
-    float: right;
+    display: inline;    
     width: 62.48%;
+    height: 85%;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -73,8 +83,7 @@
     float: right;
     width: 49%;
     padding-right: 2.08%;
-    margin-bottom: 0;
-    position: relative;
+    margin-bottom: 0;    
 }
 
 .escrito input {
