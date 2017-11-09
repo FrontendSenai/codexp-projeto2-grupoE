@@ -1,5 +1,8 @@
-.content {
-    width: 100%;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
 }
 
 h1,
@@ -8,4 +11,142 @@ h3 {
     font-weight: bold;
 }
 
-.content__top-with-image {}
+.content {
+    width: 100%;
+}
+
+.content_top-with-image__titles {
+    width: 100%;
+    background-color: #c1c1c1;
+    padding: 5%;
+    padding-bottom: 15%;
+    /* position: absolute;  */
+}
+
+.content_top-with-image__titles h1 {
+    color: black;
+    font-size: 2em;
+}
+
+.content_top-with-image__titles h2 {
+    color: #8c8c8c;
+    font-size: 1.5em;
+}
+
+.content__top-with-image__imagebox {
+    width: 100%;
+    height: 10%;
+    z-index: 4;
+    position: relative;
+    top:  -2em;
+    /* padding-top: 33%; */
+}
+
+.content__top-with-image__imagebox img {
+    border: 2px solid #c1c1c1;
+    border-style: inset;
+    box-shadow: inset 0 5px 5px black;
+    border-radius: 50%;
+    max-width: 100%;
+    height: 17em;
+    width: 17em;
+    margin: 0 auto;
+    display: block;
+}
+
+.content_top-with-image__text {
+    text-align: center;
+    margin-bottom: 7%;
+}
+
+.content_top-with-image__text p {
+    margin-top: 3%;
+}
+
+.content_top-with-image__text p:first-of-type,
+.content__section p {
+    color: #8c8c8c;
+    font-size: 1.1em;
+}
+
+.content_top-with-image__text p:nth-of-type(2) {
+    color: red;
+}
+
+.content__section {
+    height: 20%;
+    margin: 5%;
+    text-align: right;
+}
+
+.content__section div {
+    width: 70%;
+    display: inline-block;
+}
+
+.content__section h3 {
+    font-size: 1.5em;
+}
+
+.content__section__icon {
+    width: 8%;
+    /* color: black; */
+    float: right;
+    margin: 1% 0 0 5%;
+    background: url(../img/arrow.png) no-repeat;
+    background-size: 100%;
+    height: 2.5em;
+}
+
+.linha {
+    width: 100%;
+    border: none !important;
+    height: 14px;
+    background: url(http://weaveweb.com.au/sites/all/themes/weavepublic/images/sprite.gif) no-repeat scroll 50% 0;
+}
+
+
+/*Mobile*/
+
+@media screen and (min-width: 0px) {}
+
+
+/*Tablets*/
+
+@media screen and (min-width: 768px) {
+    /* .content_top-with-image__titles {
+        text-align: center;
+        padding-bottom: 8%;
+        
+    }
+    .content_top-with-image__titles div {
+        width: 50%;
+        float: right;
+    }
+
+    .content_top-with-image__titles h1,
+    .content_top-with-image__titles h2 {
+        text-align: left;
+    }
+
+    .content__top-with-image__imagebox {
+        display: inline;
+        float: left;
+        padding-top: 2%;
+        margin-left: 10%;
+    }
+    .content__top-with-image__imagebox img {
+        float: left;
+        position: relative;
+    } */
+}
+
+
+/*Desktops*/
+
+@media screen and (min-width: 992px) {}
+
+
+/*Notebooks*/
+
+@media screen and (min-width: 1200px) {}

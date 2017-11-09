@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Candal" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            background: white;
+        }
+
+        .logo__mobile {
+
+            height: 70px;
+            width: 70px;
+            float: left;
+            background: url(img/logo1.png) no-repeat;
+        }
+
+
+        .header {
+            width: 100%;
+            height: 13%;
+            padding: 2%;
+            background-color: #242222;
+        }
+
+        .navbar {
+
+            font-family: 'Candal', sans-serif;
+            font-size: 1em;
+        }
+
+        .ul__mobile {
+            display: block;
+            list-style-type: none;
+            color: white;
+            margin: 10%;
+            
+             font-size: 1em;
+            width: 100%;
+            height: 70%;
+        }
+
+        .li__mobile {
+            float: left;
+            margin: 6% 1% 1% 1%;
+        }
+
+        a {
+
+            text-decoration: none;
+            color: white;
+        }
+
+        .ul__tablet {
+            display: none;
+        }
+
+        .menu__tablet {
+            display: none;
+        }
+
+        @media screen and (min-width: 768px) {
+
+            * {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                background: gray;
+            }
+
+            .header {
+                width: 100%;
+                height: 16%;
+                padding: 2%;
+                background-color: #FFFFFF;
+            }
+
+
+            .logo {
+                height: 200px;
+                width: 200px;
+                margin: 0 5% 0 5%;
+                float: left;
+                background: url(img/logo.png) no-repeat;
+                background-size: 200px;
+            }
+
+
+            .navbar {
+                font-family: 'Candal', sans-serif;
+                font-size: 1em;
+            }
+            .menu__title {
+                width: 100%;
+            }
+
+            .ul__mobile {
+                display: none;
+            }
+
+            .menu__tablet-esq {
+                text-align: right;
+                margin-bottom: 15%;
+            }
+
+            .menu__tablet-dir {
+                text-align: left;
+                margin-bottom: 15%;
+            }
+
+            .li__mobile {
+                display: none;
+            }
+
+            .ul__tablet {
+                display: block;
+                list-style-type: none;
+                float: left;
+                margin-top: 4%;
+            }
+            ul {
+                list-style-type: none;
+            }
+            .menu__tablet {
+                display: block;
+                width: 55%;
+                height: 100%;
+                margin: 0 auto;
+            }
+
+            .logo__mobile {
+
+                display: none;
+            }
+
+            li a {
+                color: #EC2336;
+            }
+        }
+
+
+
+        @media screen and (min-width: 1024px) {
+
+            .navbar {
+
+                font-size: 1.3em;
+            }
+
+            .header {
+
+                height: 35%;
+            }
+
+            .logo {
+                height: 270px;
+                width: 270px;
+                float: left;
+                background-size: 270px;
+                margin: 0;
+            }
+            .menutablet {
+                display: block;
+                width: 100%;
+                height: 100%;
+                margin: 0 0 0 3%;
+            }
+            .ultablet {
+
+                list-style-type: none;
+                float: left;
+                width: 35%;
+                margin-top: 10%;
+            }
+
+            .menu__tablet-esq {
+                text-align: right;
+                margin-right: 5%;
+                float: left;
+            }
+            .menu__tablet-dir {
+                text-align: right;
+                margin-left: 5%;
+                float: left;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <navbar class="navbar">
+
+            <div class="menu__tablet">
+
+                <ul class="ul__tablet">
+                    <li class="menu__tablet-esq">
+                        <a href="#">SERVICES</a>
+                    </li>
+                    <li class="menu__tablet-esq">
+                        <a href="#">WORK</a>
+                    </li>
+                    <li class="menu__tablet-esq">
+                        <a href="#">WHY US?</a>
+                    </li>
+                </ul>
+
+                <figure class="logo"> </figure>
+
+                <ul class="ul__tablet">
+                    <li class="menu__tablet-dir">
+                        <a href="#">BLOG</a>
+                    </li>
+                    <li class="menu__tablet-dir">
+                        <a href="#">ABOUT</a>
+                    </li>
+                    <li class="menu__tablet-dir">
+                        <a href="#">CONTACT</a>
+                    </li>
+            </div>
+
+            <figure class="logo__mobile"></figure>
+
+            <ul class="ulmobile ">
+                <li class="limobile ">
+                    <a href="#">WORK</a>
+                </li>
+                <li class="limobile ">
+                    <a href="#">CONTACT</a>
+                </li>
+                <li class="limobile ">
+                    <a href="#">FULL</a>
+                </li>
+                <li class="li__mobile ">
+                    <a href="#">MENU</a>
+                </li>
+
+            </ul>
+
+        </navbar>
+    </header>
+</body>
+
+</html>
