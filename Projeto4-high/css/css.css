@@ -1,0 +1,160 @@
+.linha {    
+    width: 100%;    
+    border: none !important;
+    height: 14px;
+    background: url(http://weaveweb.com.au/sites/all/themes/weavepublic/images/sprite.gif) no-repeat scroll 50% 0;
+}
+
+.titulo {
+    font-size: 2em;
+    line-height: 40px;
+    font-family: "Lilita One", Arial, san-serif;
+    color: #e31936;
+    font-weight: normal;
+}
+.conteudo{    
+    display: block;      
+    width:100% ;
+}
+
+.conteudo div {
+    display: inline-block;  
+    float: left;  
+    margin-left: 2.08%;
+    width: 31.24%;
+}
+
+.conteudo h2 {
+    font-size: 1.5em;
+    font-family: "Ruluko", Arial, san-serif;
+    font-weight: normal;
+}
+
+.conteudo p {
+    font-size: 1em;
+    line-height: 23px;
+    margin-bottom: 18px;
+}
+
+.rodape{
+    clear: both;    
+    height: 15%;
+    position: relative;    
+}
+.rodape figure {
+    display: none;
+    position: absolute;
+    margin-right: -20px; 
+    z-index: 100;
+    bottom: 0;
+    right: 62.48%;
+}
+
+.divisao {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    display: inline;    
+    width: 62.48%;
+    height: 85%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: #e31936;
+    color: #ffffff;
+    padding: 12px 0 12px 2.08%;
+    margin-top: 13px;
+}
+
+.divisao div {
+    width: 50%;
+    display: inline;
+}
+
+.divisao p {
+    font-family: "Ruluko", Arial, san-serif;
+    font-weight: normal;
+}
+
+.rodape div label {
+    font-family: "Ruluko", Arial, san-serif;
+    font-size: 0.98em;
+    padding: 2px 0 5px;
+}
+
+.escrito {
+    display: inline;
+    float: right;
+    width: 49%;
+    padding-right: 2.08%;
+    margin-bottom: 0;    
+}
+
+.escrito input {
+    border: none;
+    padding: 8px 10px;
+    color: #333333;
+    font-size: 16px;
+    position: relative;
+    width: 69%;
+    z-index: 5;
+    box-shadow: none;
+    border-radius: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .divisao{
+        width: 100%;
+    }
+    .conteudo div {  
+        display: inline-block;            
+        float: none; 
+        width: 45%;        
+    } 
+}
+
+@media screen and (min-width: 768px) {
+    .rodape figure {
+        display: inherit;
+    }   
+}
+
+@media screen and (max-width: 600px) {
+    .divisao{
+        width: 100%;
+    }
+    .conteudo div {  
+        display: block;           
+        float: none;         
+        width: 100%;
+    } 
+    .divisao div {
+        width: 100%;
+        display: inline;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .conteudo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1030px;
+    }
+
+    .div_titulo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1020px;
+    }
+
+    .rodape{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1020px;  
+    }
+}
+
